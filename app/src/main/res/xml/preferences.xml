@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <PreferenceCategory
+            android:title="设置"
+            >
+
+
+        <EditTextPreference
+            android:title="修改照片路径(格式/xxx/)"
+            android:key="local"
+
+            />
+
+        <PreferenceScreen
+            android:title="检查更新"
+            android:key="update"
+
+            />
+
+        <!--<PreferenceScreen-->
+            <!--android:title="@string/per_comment"-->
+            <!--android:key="comment"-->
+            <!---->
+            <!--/>-->
+
+        </PreferenceCategory>
+
+
+</PreferenceScreen>

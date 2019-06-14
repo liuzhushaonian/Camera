@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Camera</string>
+    <string name="others">其他</string>
+
+    <string name="change_color">换肤</string>
+
+    <string name="exit">退出</string>
+    <string name="setting">设置</string>
+    <string name="about_app">关于</string>
+
+    <string name="center">个人中心</string>
+
+    <string name="collection">我的收藏</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title">标题</string>
+
+    <string name="preview">
+    </string>
+
+    <string name="hint">留下你的观点</string>
+
+    <string name="regist">注册</string>
+
+    <string name="login">登录</string>
+
+    <string name="center_info">登录更有趣~</string>
+
+    <string name="per_account">账户设置</string>
+
+    <string name="per_like">我的收藏</string>
+
+    <string name="per_comment">我的评论</string>
+
+    <string name="per_change_pass">修改密码</string>
+
+    <string name="per_change_color">改变主题</string>
+
+    <string name="per_app">其他设置</string>
+
+    <string name="per_wifi">仅在WiFi下浏览</string>
+
+    <string name="edit_email">请输入email</string>
+    <string name="edit_pass">请输入密码</string>
+    <string name="edit_v_pass">确认密码</string>
+
+    <string name="switch_login">已有账号？前往登录</string>
+    <string name="switch_regist">没有账号？注册一个</string>
+
+    <string name="regist_name">请输入昵称</string>
+
+    <string name="sign_out">退出登录</string>
+
+    <string name="next">下一题 -></string>
+
+    <string name="update">检查更新</string>
+</resources>
