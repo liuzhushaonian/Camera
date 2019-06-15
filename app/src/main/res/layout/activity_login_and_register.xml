@@ -70,7 +70,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/regist"
+                android:text="注册"
                 android:backgroundTint="@color/colorGrey"
                 android:textColor="@color/colorWhite"
                 android:id="@+id/btn_regist"
@@ -107,7 +107,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/login"
+                android:text="登录"
                 android:backgroundTint="@color/colorCP"
                 android:textColor="@color/colorWhite"
                 android:id="@+id/btn_login"

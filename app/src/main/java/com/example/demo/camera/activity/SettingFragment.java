@@ -7,6 +7,7 @@ import android.preference.EditTextPreference;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
+import android.support.v7.app.AlertDialog;
 import android.widget.Toast;
 
 import com.example.demo.camera.R;
@@ -19,7 +20,7 @@ public class SettingFragment extends PreferenceFragment {
 
 
     private EditTextPreference editTextPreference;
-    private PreferenceScreen preferenceScreen;
+    private PreferenceScreen preferenceScreen,about;
     private SharedPreferences sharedPreferences;
 
 
@@ -32,9 +33,11 @@ public class SettingFragment extends PreferenceFragment {
 
         editTextPreference= (EditTextPreference) findPreference("local");//获取设置的控件
         preferenceScreen= (PreferenceScreen) findPreference("update");
+        about= (PreferenceScreen) findPreference("about");
 
         initLocal();
         initUpdate();
+        initAbout();
 
 
     }
@@ -81,6 +84,37 @@ public class SettingFragment extends PreferenceFragment {
                 return true;
             }
         });
+    }
+
+
+    /**
+     * 关于点击
+     */
+    private void initAbout(){
+
+        about.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+            @Override
+            public boolean onPreferenceClick(Preference preference) {
+
+                showDialog();
+
+                return true;
+            }
+        });
+
+
+    }
+
+    /**
+     * 关于显示弹窗
+     */
+    private void showDialog(){
+
+        AlertDialog.Builder builder=new AlertDialog.Builder(getActivity());
+
+        builder.setTitle("关于").setMessage(getResources().getString(R.string.about)).show();
+
+
     }
 
 

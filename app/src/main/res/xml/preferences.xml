@@ -19,11 +19,11 @@
 
             />
 
-        <!--<PreferenceScreen-->
-            <!--android:title="@string/per_comment"-->
-            <!--android:key="comment"-->
-            <!---->
-            <!--/>-->
+        <PreferenceScreen
+            android:title="关于"
+            android:key="about"
+
+            />
 
         </PreferenceCategory>
 
